@@ -1,0 +1,296 @@
+:root {
+    --cor-fundo-tela: #FFFFFF;
+    --cor-botao: #8E2424;
+    --cor-ancoras: #667085;
+    --cor-texto-logo: #3A404E;
+    --cor-detalhamento: #101828;
+    --color-footer: #F9FAFB;
+
+    --fonte-principal: 'Inter', sans-serif;;
+
+}
+
+body {
+    background-color: var(--cor-fundo-tela);
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.texto__imagem__logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.texto__logo {
+    font-size: 1.5rempx;
+    font-weight: 500;
+    font-family: var(--fonte-principal);
+    color: var(--cor-texto-logo);
+}
+
+.ancoras__header {
+    display: flex;
+    gap: 2rem;
+}
+
+.ancora__links {
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: var(--fonte-principal);
+    color: var(--cor-ancoras);
+    text-decoration: none;
+}
+
+.botao {
+    font-size: 1em;
+    font-weight: 500;
+    font-family: var(--fonte-principal);
+    margin-left: 1.75rem;
+}
+
+.botao__entrar {
+    border: none;
+    color: var(--cor-ancoras);
+    background-color: #FFFFFF;
+}
+
+.botao__cadastrar {
+    background-color: var(--cor-botao);
+    color: var(--cor-fundo-tela);
+    border: none;
+    border-radius: 0.4em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.textos__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 96px;
+}
+
+.texto__sobre {
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: var(--fonte-principal);
+    color: var(--cor-botao);
+}
+
+.texto__titulo {
+    font-size: 48px;
+}
+
+.paragrafo {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+    color: var(--cor-ancoras);
+}
+
+.numeros__empresa {
+    display: flex;
+    margin-left: 112px;
+    margin-right: 112px;
+    justify-content: space-around;
+}
+
+.numero {
+    font-size: 60px;
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    color: var(--cor-botao);
+}
+
+.titulo__detalhamento {
+    font-size: 18px;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    color: var(--cor-detalhamento);
+}
+
+.descricao__detalhamento {
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    color: var(--cor-ancoras);
+}
+
+.textos__imagem__vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textos__descritivos {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.texto__vagas {
+    font-size: 14px;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    color: var(--cor-botao);
+}
+
+.texto__talentos {
+    font-size: 36px;
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    color: var(--cor-detalhamento);
+}
+
+.texto__descricao__remoto {
+    font-size: 20px;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    color: var(--cor-ancoras);
+}
+
+.sessao__empregos {
+    margin-left: 336px;
+    
+}
+
+.titulo__cursos__design {
+    font-size: 20px;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    color: var(--cor-detalhamento);
+    margin-top: 64px;
+    margin-bottom: 34px;
+}
+
+.grid {
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    padding: 24px 24px 28px;
+    width: 768px;
+    margin-bottom: 24px;
+}
+
+.product__designer {
+    font-size: 18px;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    color: var(--cor-detalhamento);
+}
+
+.posicao__descricao__vaga {
+    display: flex;
+    gap: 24px;
+}
+
+.background {
+    margin-left: 112px;
+    margin-right: 112px;
+}
+
+
+.descricao__vaga {
+   font-size: 16px;
+   font-family: var(--fonte-principal);
+   font-weight: 500;
+   color: var(--cor-ancoras);
+}
+
+.background {
+    padding: 112px 112px;
+    padding-bottom: 96px;
+}
+
+.grid__comentario {
+    background: rgba(195, 25, 25, 0.03);
+    border-radius: 16px;
+    width: 1216px;
+    padding: 64px;
+    text-align: center;
+}
+
+.comentario__principal {
+    font-size: 14px;
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    color: var(--cor-botao);
+}
+
+.comentario__optimus {
+    font-size: 36px;
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    color: var(--cor-detalhamento);
+}
+
+.nome {
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    color: var(--cor-detalhamento);
+}
+
+.profissao_comentario {
+    font-size: 14px;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    color: var(--cor-ancoras);
+}
+
+footer {
+    background-color: var(--color-footer);
+    padding: 96px 336px 96px 336px;
+}
+
+.posicionamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.titulo__oportunidades {
+    font-size: 36px;
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    color: var(--cor-detalhamento);
+}
+
+.texto__secundario {
+    font-size: 20px;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    color: var(--cor-ancoras);
+}
+
+.input__botao {
+    padding-top: 40px;
+    padding-bottom: 32px;
+}
+
+input {
+    padding: 12px 14px 12px 16px;
+    width: 360px;
+    margin-right: 16px;
+}
+
+input::placeholder {
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    color: var(--cor-ancoras);
+}
+
+.direitos__pagina {
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    color: var(--cor-ancoras);
+}
